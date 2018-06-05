@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">UI/UX4RECYCLER/MATERIAL</string>
+
+    <string-array name="Languages">
+        <item>C++</item>
+        <item>JavaScript</item>
+        <item>Kotlin</item>
+        <item>swift</item>
+        <item>Java</item>
+        <item>C#</item>
+    </string-array>
+    
+    <array name="LanguagesImg">
+        <item>@drawable/cplus</item>
+        <item>@drawable/javascript</item>
+        <item>@drawable/kotlin</item>
+        <item>@drawable/swift</item>
+        <item>@drawable/java</item>
+        <item>@drawable/cchar</item>
+    </array>
+</resources>
