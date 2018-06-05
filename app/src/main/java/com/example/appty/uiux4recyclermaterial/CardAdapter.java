@@ -17,12 +17,12 @@ import java.util.ArrayList;
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.MyViewHolder> {
 
     private ArrayList<LanguageClass> data;
-    private Context context;
 
 
-    public CardAdapter(ArrayList<LanguageClass> data, Context context) {
+
+    public CardAdapter(ArrayList<LanguageClass> data) {
         this.data = data;
-        this.context = context;
+
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder

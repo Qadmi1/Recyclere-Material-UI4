@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
 
-        final RecyclerView.Adapter adapter = new CardAdapter(languageClassArrayList, this);
+        final RecyclerView.Adapter adapter = new CardAdapter(languageClassArrayList);
 
         ItemTouchHelper.Callback callbacks = new ItemTouchHelper.Callback() {
             // Try reducing the movement

@@ -7,7 +7,7 @@ import android.os.Parcelable;
  * Created by appty on 07/04/18.
  */
 
-public class LanguageClass implements Parcelable {
+public class LanguageClass  implements Parcelable{
 
     private String name;
     private int img;
@@ -16,6 +16,7 @@ public class LanguageClass implements Parcelable {
         this.name = name;
         this.img = img;
     }
+
 
     protected LanguageClass(Parcel in) {
         name = in.readString();
@@ -41,6 +42,7 @@ public class LanguageClass implements Parcelable {
     public int getImg() {
         return img;
     }
+
 
     @Override
     public int describeContents() {

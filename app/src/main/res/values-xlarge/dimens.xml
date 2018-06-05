@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="cardview">250dp</dimen>
+    <dimen name="float_height">120dp</dimen>
+    <dimen name="float_width">120dp</dimen>
 </resources>
